@@ -7,6 +7,11 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        xing: '#126567',
+        linkedin: '#0072b1',
+        github: '#171515',
+      },
     },
   },
   plugins: [],
