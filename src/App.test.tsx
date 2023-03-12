@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('displays Neon in headline', () => {
+test('displays Daniel Brandl in headline', () => {
   render(<App />);
   const headline = screen.getByRole('heading');
-  expect(headline).toHaveTextContent('Neon');
+  expect(headline).toHaveTextContent('Daniel Brandl');
 });
