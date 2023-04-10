@@ -21,6 +21,7 @@ const ThemeButton = () => {
 
   return (
     <button
+      data-testid="theme-button"
       className="bg-slate-800 dark:bg-slate-200 hover:opacity-90 text-slate-100 dark:text-slate-900 font-bold w-10 h-10 rounded-full ml-2"
       onClick={toggleTheme}
     >
