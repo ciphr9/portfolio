@@ -1,3 +1,50 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.Gradient {
+  background: linear-gradient(
+    45deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 20%,
+    rgb(15, 23, 42) 40%,
+    rgb(15, 23, 42) 60%,
+    rgb(100, 116, 139) 80%,
+    rgb(100, 116, 139) 100%
+  );
+  background-size: 150% 100%;
+  animation: gradient 25s ease infinite;
+}
+
+@media screen and (max-width: 996px) {
+  .Overview {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .button {
+    margin: 0px 10px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

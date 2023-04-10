@@ -11,7 +11,7 @@ function App() {
         <p className="flex-1 font-extrabold text-xl bg-clip-text">Portfolio</p>
         <ThemeButton />
       </div>
-      <div className="z-10 flex flex-1 flex-col items-center text-center justify-center">
+      <div className="Gradient z-10 flex flex-1 flex-col items-center text-center justify-center">
         <img className="rounded-full h-56 w-56 mb-5" src={logo} alt="logo" />
         <h1 className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-600 via-cyan-400 to-cyan-300">
           Daniel Brandl
