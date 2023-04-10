@@ -7,7 +7,7 @@ const GithubButton = () => {
   };
 
   return (
-    <button className="bg-github hover:opacity-90 text-white font-bold w-10 h-10 rounded-full ml-2" onClick={openGithub}>
+    <button data-testid="github-button" className="bg-github hover:opacity-90 text-white font-bold w-10 h-10 rounded-full ml-2" onClick={openGithub}>
       <FontAwesomeIcon icon={faGithub} />
     </button>
   );
