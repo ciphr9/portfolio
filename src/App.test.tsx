@@ -10,6 +10,7 @@ vi.mock('three', async () => {
       domElement: document.createElement('div'), // create a fake div
       setSize: vi.fn(),
       render: vi.fn(),
+      setClearColor: vi.fn(),
     }),
   };
 });
