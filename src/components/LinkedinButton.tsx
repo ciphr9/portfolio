@@ -7,7 +7,11 @@ const LinkedinButton = () => {
   };
 
   return (
-    <button className="bg-linkedin hover:opacity-90 text-white font-bold w-10 h-10 rounded-full ml-2" onClick={openLinkedIn}>
+    <button
+      data-testid="linkedin-button"
+      className="bg-linkedin hover:opacity-90 text-white font-bold w-10 h-10 rounded-full ml-2"
+      onClick={openLinkedIn}
+    >
       <FontAwesomeIcon icon={faLinkedinIn} />
     </button>
   );
