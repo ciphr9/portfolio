@@ -7,7 +7,7 @@ const XingButton = () => {
   };
 
   return (
-    <button className="bg-xing hover:opacity-90 text-white font-bold w-10 h-10 rounded-full ml-2" onClick={openXing}>
+    <button data-testid="xing-button" className="bg-xing hover:opacity-90 text-white font-bold w-10 h-10 rounded-full ml-2" onClick={openXing}>
       <FontAwesomeIcon icon={faXing} />
     </button>
   );
